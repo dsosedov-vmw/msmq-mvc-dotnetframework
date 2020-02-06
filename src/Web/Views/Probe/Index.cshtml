@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Probe";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Probe</h1>
+    <div>
+        @Html.ActionLink("Send", "Send", "Probe") | @Html.ActionLink("Receive", "Receive", "Probe")
+    </div>
+    <div>@ViewData["Status"]</div>
+</div>

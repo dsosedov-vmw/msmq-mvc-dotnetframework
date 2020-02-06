@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Receive";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Receive</h1>
+    <div>
+        @Html.ActionLink("Probe", "Index", "Probe") | @Html.ActionLink("Send", "Send", "Probe")
+    </div>
+    <div>
+        <form method="post">
+            <input type="submit" name="Receive" />
+        </form>
+    </div>
+    <div>@ViewData["Status"]</div>
+</div>
