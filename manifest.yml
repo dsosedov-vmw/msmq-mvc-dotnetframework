@@ -1,0 +1,9 @@
+---
+applications:
+- name: msmq-mvc-dotnetframework
+  memory: 512M
+  instances: 1
+  path: C:/Publish/msmq-mvc-dotnetframework
+  stack: windows
+  buildpacks:
+  - hwc_buildpack
